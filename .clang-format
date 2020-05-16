@@ -1,63 +1,66 @@
-#clang-format 6.0 style def
-SortIncludes: true
-AccessModifierOffset: -4
-AlignAfterOpenBracket: DontAlign
+# Generated from CLion C/C++ Code Style settings
+BasedOnStyle: LLVM
+AccessModifierOffset: -2
+AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: false
-AlignConsecutiveDeclarations: false
-AlignEscapedNewlines: Left
 AlignOperands: false
-AlignTrailingComments: false
+AllowAllArgumentsOnNextLine: false
+AllowAllConstructorInitializersOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: false
-AllowShortFunctionsOnASingleLine: false
-AllowShortIfStatementsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: false
-#AlwaysBreakAfterReturnType: All
-AlwaysBreakBeforeMultilineStrings: false
-AlwaysBreakTemplateDeclarations: true
-BinPackArguments: true
-BinPackParameters: true
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: MultiLine
 BreakBeforeBraces: Custom
 BraceWrapping:
+  AfterCaseLabel: false
   AfterClass: true
-  AfterControlStatement: true 
+  AfterControlStatement: Never
   AfterEnum: true
   AfterFunction: true
   AfterNamespace: true
-  AfterStruct: true
   AfterUnion: true
-  AfterExternBlock: true
   BeforeCatch: true
   BeforeElse: true
-  #BreakBeforeInheritanceComma: false
-  #BreakConstructorInitializers: true
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: AfterColon
 ColumnLimit: 100
 CompactNamespaces: false
-Cpp11BracedListStyle: true
-IndentCaseLabels: true 
-IndentWidth: 4
-TabWidth: 4
+ContinuationIndentWidth: 4
+IndentCaseLabels: false
+IndentPPDirectives: None
+IndentWidth: 2
+KeepEmptyLinesAtTheStartOfBlocks: true
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: None
+ObjCSpaceAfterProperty: false
+ObjCSpaceBeforeProtocolList: true
+PointerAlignment: Right
+ReflowComments: false
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 0
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+TabWidth: 2
 UseTab: Never
-KeepEmptyLinesAtTheStartOfBlocks: false
-Language: Cpp
-NamespaceIndentation: Inner
-#PointerAlignment: Right
-ReflowComments: true
-
-#PenaltyBreakBeforeFirstCallParameter: 2
-#PenaltyBreakAssignment: 2
-#PenaltyExcessCharacter: 1
-#PenaltyReturnTypeOnItsOwnLine: 0
-
-#SpaceAfterCStyleCast: false
-#SpaceBeforeAssignmentOperators: false
-#SpaceBeforeParens: Never
-#SpaceInEmptyParentheses: false
-#SpacesInCStyleCastParentheses: false
-#MaxEmptyLinesToKeep: 1
-#SpacesInCStyleCastParentheses: false
-#SpacesInParentheses: false
-Standard: Auto
-#SpacesInAngles: false
-#SpacesInContainerLiterals: false
-#SpacesInSquareBrackets: false
